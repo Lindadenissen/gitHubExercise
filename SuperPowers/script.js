@@ -125,9 +125,7 @@ console.log(heavySuperheroes);
 //4
 const firstAppearance = superheroes.map((superhero) => superhero.name + ": " + superhero.first_appearance);
 
-
 console.log(firstAppearance);
-
 
 //5
 const dcComics = superheroes.filter(superhero => superhero.publisher === "DC Comics");
@@ -151,6 +149,5 @@ console.log(weightMarvel);
 
 //8
 const weightSuperheroes = superheroes.map((superhero) => parseInt(superhero.weight));
-
 
 console.log(Math.max (weightSuperheroes));
