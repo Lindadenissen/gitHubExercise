@@ -148,7 +148,7 @@ const weightMarvel = superheroes.filter(superhero => superhero.publisher === "Ma
 console.log(weightMarvel);
 
 //8
-//geen idee hoe dit te doen
+//geen idee hoe dit te doen.
 const weightSuperheroes = superheroes.map((superhero) => parseInt(superhero.weight));
 
 console.log(Math.max (weightSuperheroes));
